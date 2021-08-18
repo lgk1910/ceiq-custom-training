@@ -11,7 +11,7 @@ The two folders **test_imgs** and **dataset** and the csv file **contrast_distor
 ## Preprocessing
 ### Requirements
 CSV file must contains at least two columns:
-1. One column named **img_name** representsimage names.
+1. One column named **img_name** represents image names.
 2. One column named **dmos** represents DMOS (Differential Mean Opinion Score) values, each of which is the mean of opinion score that people give to that particular image.
 
 ### Command
@@ -23,6 +23,7 @@ Arguments:
 - -i: name of the input csv file
 - -f : relative path of the folder that contains training images.
 
+**Note**: please make your own folder containing trainng images and specify its path using the -f argument
 ## Training
 Run the following command:
 ```
